@@ -1,5 +1,5 @@
 nav{
-background-color: #333;
+background-color: #940707;
 }
 nav ul{
     margin: 0;
@@ -13,10 +13,35 @@ nav ul li{
     margin:0 10px;
 }
 nav ul li a{
-    color: #ffff;
+    color: #050505;
     text-decoration: none;
     padding: 10px;
 }
 nav ul li a:hover{
-    background-color: #555;
+    background-color: #940707;
+}
+h1{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 10%;
+}
+.brief{
+    text-align: left;
+    color: rgb(7, 7, 7);
+}
+body{
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    color: rgb(12, 12, 12);
 }
